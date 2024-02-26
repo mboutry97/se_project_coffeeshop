@@ -25,9 +25,88 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Espresso Coffee Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recipes">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#book-a-table">Book a table</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span>
+          in the Triple Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration 'Inside the coffee shop'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <ul class="header__paragraph">
+            Hours
+            <li>Monday – Friday (10:00 – 19:00)</li>
+            <li>Saturday – Sunday (11:00 – 18:00)</li>
+          </ul>
+          <p class="header__address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience
+          </p>
+          <div class="recipes__videos">
+            <div>
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=PDEzhQCF1LYZ1FVQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span>~5 min
+              </p>
+            </div>
+            <div>
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=hLf_KMioDSKhA4RP"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span>~15 min
+              </p>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
         <section class="menu"></section>
         <section class="about"></section>
