@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+I would add even more animations, probably to the illustrations we have on the main page. I would also add some cool fonts to make some of the sections a little more visually appealing. Potentially having a contact icon with fixed position so that customers could easily make a call or email the coffee shop.

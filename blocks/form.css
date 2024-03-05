@@ -24,8 +24,9 @@
 }
 
 .form__input_type_checkbox {
-  min-height: 20px;
-  min-width: 20px;
+  height: 20px;
+  width: 20px;
+  margin: 0;
 }
 
 .form__input::placeholder {
