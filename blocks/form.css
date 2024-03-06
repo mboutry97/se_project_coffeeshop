@@ -1,5 +1,6 @@
 .form {
   max-width: 385px;
+  /* refers to the size of the form, also used in reservation__form */
 }
 
 .form__fieldset {
@@ -18,7 +19,6 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
-
   gap: 20px;
 }
 
@@ -32,7 +32,7 @@
   font-size: 20px;
   line-height: 30px;
   border-radius: 4px;
-  box-sizing: border-box;
+  box-sizing: border-box; /*keeps input boxes within form size*/
 }
 
 .form__input_type_checkbox {

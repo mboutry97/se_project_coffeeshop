@@ -17,4 +17,5 @@
 
 .reservation__form {
   margin: 0 auto 0 auto;
+  /* we will place max-width in the form class rules */
 }

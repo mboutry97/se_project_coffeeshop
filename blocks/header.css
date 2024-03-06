@@ -9,6 +9,7 @@
   background-color: #fff;
   background-size: cover;
   background-position: center;
+  position: relative; /*for absolute positioned img inside */
 }
 
 .header__title {
