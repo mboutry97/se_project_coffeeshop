@@ -1,6 +1,8 @@
 .reservation {
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 .reservation__title {
@@ -14,6 +16,5 @@
 }
 
 .reservation__form {
-  max-width: 385px;
-  margin: 0 auto 0;
+  margin: 0 auto 0 auto;
 }

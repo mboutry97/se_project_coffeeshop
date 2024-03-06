@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Coffee Shop Website</title>
   </head>
   <body>
     <div class="page">
@@ -60,12 +60,16 @@
           class="header__image"
         />
         <div class="header__footer">
-          <ul class="header__paragraph">
-            <li>Hours</li>
-            <li>Monday &ndash; Friday (10:00 &ndash; 19:00)</li>
-            <li>Saturday &ndash; Sunday (11:00 &ndash; 18:00)</li>
-          </ul>
-          <p class="header__address">
+          <div class="header__content">
+            <p class="header__paragraph">Hours</p>
+            <p class="header__paragraph">
+              Monday &ndash; Friday (10:00 &ndash; 19:00)
+            </p>
+            <p class="header__paragraph">
+              Saturday &ndash; Sunday (11:00 &ndash; 18:00)
+            </p>
+          </div>
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -114,6 +118,7 @@
                 class="form__input"
                 id="name"
                 placeholder="Name Surname"
+                required
               />
               <label for="number-of-guests" class="form__label"
                 >Number of guests *</label
@@ -123,15 +128,22 @@
                 class="form__input"
                 id="number-of-guests"
                 placeholder="1-8"
+                required
               />
               <label for="date-time" class="form__label">Date & time *</label>
-              <input type="datetime-local" class="form__input" id="date-time" />
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date-time"
+                required
+              />
               <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
                 class="form__input"
                 id="email"
                 placeholder="email@email.com"
+                required
               />
               <button class="form__button" type="submit">Book a table</button>
 
@@ -140,6 +152,7 @@
                   type="checkbox"
                   id="terms"
                   class="form__input form__input_type_checkbox"
+                  required
                 />I agree with the terms of use</label
               >
             </fieldset>
@@ -153,7 +166,7 @@
           </p>
           <div class="menu__cards">
             <div class="card">
-              <div class="card__title">Filter</div>
+              <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz) <span class="card__list-divider"></span> $1
@@ -175,7 +188,7 @@
               </ul>
             </div>
             <div class="card">
-              <div class="card__title">Espresso</div>
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Macchiato <span class="card__list-divider"></span> $2.25
@@ -195,7 +208,7 @@
               </ul>
             </div>
             <div class="card">
-              <div class="card__title">Baked Goods</div>
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant <span class="card__list-divider"></span>$2
@@ -246,29 +259,31 @@
             alt="Coffee Shop Logo"
             class="footer__logo"
           />
-          <ul class="footer__list">
+          <div class="footer__social-media">
             <h3 class="footer__social-heading">Social media</h3>
-            <li class="footer__list-item">
-              <a href="#" class="footer__social-link"
-                ><img
-                  src="./images/facebook_white.svg"
-                  alt="Facebook icon"
-                  class="footer__social-icon"
-                />
-                Facebook</a
-              >
-            </li>
-            <li class="footer__list-item">
-              <a href="#" class="footer__social-link"
-                ><img
-                  src="./images/instagram_white.svg"
-                  alt="Instagram Icon"
-                  class="footer__social-icon"
-                />
-                Instagram</a
-              >
-            </li>
-          </ul>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook icon"
+                    class="footer__social-icon"
+                  />
+                  Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Icon"
+                    class="footer__social-icon"
+                  />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
         <p class="footer__copyright">© Max Boutry</p>
       </footer>

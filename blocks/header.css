@@ -5,6 +5,10 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  background-image: url(../images/background_header.svg);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
 }
 
 .header__title {
@@ -20,7 +24,7 @@
 .header__span-accent {
   color: #2f80ed;
   font-style: italic;
-  font-family: "Noto-Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   line-height: 72px;
   display: block;
@@ -32,6 +36,9 @@
   line-height: 30px;
   margin: 28px 0 0;
   z-index: 1;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .header__image {
@@ -49,10 +56,19 @@
   align-items: flex-end;
 }
 
-.header__paragraph {
+.header__content {
   list-style-type: none;
   padding: 0;
   margin: 0 0;
+}
+
+.header__paragraph {
+  margin: 0;
+  font-weight: 500;
+  color: #838383;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header__address {
